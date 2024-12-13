@@ -1,0 +1,285 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+} */
+
+/* Define the head */
+.head {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.menton {
+    clip-path: polygon(59% 80%, 66% 74%, 61% 86%, 38% 86%, 32% 74%, 39% 80%);
+    background: black;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 100px;
+    left: 900px;
+}
+
+.mentondroit {
+    clip-path: polygon(16% 62%, 31% 74%, 36% 85%, 20% 76%);
+    background: purple;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 110px;
+    left: 860px;
+    transform: scaleX(-1);
+}
+
+.mentongauche {
+    clip-path: polygon(16% 62%, 31% 74%, 36% 85%, 20% 76%);
+    background: purple;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 110px;
+    left: 925px;
+}
+
+.bouche {
+    clip-path: polygon(45% 50%, 53% 50%, 65% 60%, 66% 74%, 59% 79%, 39% 79%, 32% 73%, 33% 61%);
+    background: red;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 112px;
+    left: 900px;
+}
+
+.jouegauche {
+    clip-path: polygon(26% 49%, 32% 60%, 31% 72%, 16% 61%, 18% 50%);
+    background: blue;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 130px;
+    left: 914px;
+}
+
+.jouedroit {
+    clip-path: polygon(26% 49%, 32% 60%, 31% 72%, 16% 61%, 18% 50%);
+    background: blue;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 133px;
+    left: 860px;
+    transform: scaleX(-1);
+}
+
+.visagedroit {
+    clip-path: polygon(50% 44%, 50% 31%, 53% 29%, 56% 28%, 72% 33%, 72% 48%, 65% 61%, 53% 49%, 54% 45%, 64% 45%, 67% 40%, 61% 36%);
+    background: green;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 120px;
+    left: 900px;
+
+}
+
+.visagegauche{
+    clip-path: polygon(50% 44%, 50% 31%, 53% 29%, 56% 28%, 72% 33%, 72% 48%, 65% 61%, 53% 49%, 54% 45%, 64% 45%, 67% 40%, 61% 36%);
+    background: green;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 120px;
+    left: 880px;
+    transform: scaleX(-1);
+
+}
+
+.front {
+    clip-path: polygon(43% 27%, 49% 18%, 55% 27%, 49% 32%);
+    background: yellow;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 120px;
+    left: 904px;
+}
+
+.frontgauche {
+    clip-path: polygon(24% 18%, 42% 27%, 26% 32%, 21% 21%);
+    background: pink;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 132px;
+    left: 905px;
+
+}
+
+.frontdroit {
+    clip-path: polygon(24% 18%, 42% 27%, 26% 32%, 21% 21%);
+    background: pink;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 132px;
+    left: 875px;
+    transform: scaleX(-1);
+}
+
+.front2droit {
+    clip-path: polygon(64% 11%, 73% 17%, 56% 26%, 50% 17%, 56% 11%);
+    background: thistle;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 132px;
+    left: 890px;
+}
+
+.front2gauche {
+    clip-path: polygon(64% 11%, 73% 17%, 56% 26%, 50% 17%, 56% 11%);
+    background: thistle;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 130px;
+    left: 893px;
+    transform: scaleX(-1);
+}
+
+.cal {
+    clip-path: polygon(49% 8%, 55% 11%, 49% 17%, 43% 11%);
+    background: palegoldenrod;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 130px;
+    left: 904px;
+}
+
+.hautoreilled {
+    clip-path: polygon(81% 17%, 87% 17%, 79% 31%, 74% 31%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 145px;
+    left: 873px;
+}
+
+.hautoreilleg {
+    clip-path: polygon(81% 17%, 87% 17%, 79% 31%, 74% 31%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 145px;
+    left: 907px;
+    transform: scaleX(-1);
+}
+
+.oreilled {
+    clip-path: polygon(89% 17%, 94% 28%, 88% 44%, 81% 48%, 81% 31%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 145px;
+    left: 907px;
+}
+
+.oreilled {
+    clip-path: polygon(89% 17%, 94% 28%, 88% 44%, 81% 48%, 81% 31%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 145px;
+    left: 907px;
+}
+
+.oreilled {
+    clip-path: polygon(89% 17%, 94% 28%, 88% 44%, 81% 48%, 81% 31%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 145px;
+    left: 907px;
+}
+
+.oreilled {
+    clip-path: polygon(89% 17%, 94% 28%, 88% 44%, 81% 48%, 81% 31%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 145px;
+    left: 907px;
+}
+.oreilled {
+    clip-path: polygon(89% 17%, 94% 28%, 88% 44%, 81% 48%, 81% 31%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 145px;
+    left: 848px;
+}
+
+.oreilleg {
+    clip-path: polygon(89% 17%, 94% 28%, 88% 44%, 81% 48%, 81% 31%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 145px;
+    left: 932px;
+    transform: scaleX(-1);
+}
+
+.temped {
+    clip-path: polygon(73% 34%, 79% 34%, 79% 49%, 73% 49%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 108px;
+    left: 888px;
+}
+
+.tempeg {
+    clip-path: polygon(73% 34%, 79% 34%, 79% 49%, 73% 49%);
+    background: brown;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 109px;
+    left: 892px;
+    transform: scaleX(-1);
+}
+
+.nose {
+    clip-path: polygon(49% 45%, 53% 42%, 53% 49%, 45% 49%, 45% 42%);
+    background: fuchsia;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 124px;
+    left: 903px;
+}
+
+.narine {
+    clip-path: polygon(49% 59%, 53% 56%, 54% 59%, 54% 60%, 49% 60%, 46% 60%, 43% 59%, 45% 56%);
+    background: beige;
+    height: 1200px;
+    width: 1200px;
+    position: absolute;
+    top: 80px;
+    left: 903px;
+}
